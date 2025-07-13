@@ -1,12 +1,43 @@
-# React + Vite
+# Personal Project Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React single-page application to showcase and manage personal projects with search functionality.
 
-Currently, two official plugins are available:
+## Features
+- Add new projects with titles and descriptions
+- Dynamic search/filtering of projects
+- Responsive design for all screen sizes
+- Clean, modern UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16 or later)
+- npm (v8 or later)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Copy the Clone link from the GitHub repository:
+    https://github.com/cdsuit00/personal-project-showcase.git
+
+2. Navigate to the directory where you want the project stored then run :
+    git clone link copied from github
+
+3. Install dependencies
+   npm install
+
+### Running the App
+1. Start development server:
+   npm run dev
+
+2. Open in browser:
+    http://localhost:5173
+
+### Project Structure
+
+src/
+├── components/
+│   ├── AddProjectForm/  # Project submission form
+│   ├── ProjectList/     # Displays filtered projects
+│   ├── SearchBar/       # Search functionality
+│   └── Header.jsx       # App title
+├── App.jsx              # Root component
+└── main.jsx             # Entry point

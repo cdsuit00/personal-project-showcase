@@ -1,0 +1,53 @@
+.add-project {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.add-project h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.add-project form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-project input,
+.add-project textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-project textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.add-project button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.add-project button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .add-project {
+    padding: 15px;
+  }
+}
